@@ -1,0 +1,51 @@
+/*Main*/
+#content a {
+  color: orange;
+  float: right;
+  text-decoration-line: none;
+}
+
+/* Headline */
+#headline {
+  justify-content: center;
+}
+#headline img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px;
+}
+#headline figcaption {
+  margin: 10px;
+  display: block;
+  color: #989898;
+  background-color: #DEDEDE;
+}
+#headline figcaption h1 {
+  font-style: italic;
+}
+
+/* Articles*/
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.articles article {
+  display: block;
+  margin: 10px;
+  flex: 1 0;
+}
+.articles article img {
+  float: left;
+  margin: 0 10px 10px 0;
+  padding: 5px;
+  border: 1px solid lightgrey;
+  max-width: 100%;
+  height: auto;
+}
+.articles article a {
+  float: right;
+}
+
+/*# sourceMappingURL=Home.css.map */
